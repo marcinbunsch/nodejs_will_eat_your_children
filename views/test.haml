@@ -1,0 +1,12 @@
+!!!
+%html
+  %head
+    %title OMG EVEN SIMPLER IN NODE!
+    %script{type: 'text/javascript', src:'common.js'}
+    %script{type: 'text/javascript', src:'omg.js'}
+  #body
+    %a{onclick: 'alert(OMG.shout())', href: '#'} Click me
+    %br
+    This came from node:
+    %br
+    = OMG.shout()
