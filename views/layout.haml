@@ -1,0 +1,20 @@
+!!!
+%html
+  %head
+    %title NODE.JS WILL EAT YOUR CHILDREN
+    %script{ type: 'text/javascript', src:'js/ender.min.js' }
+    %script{ type: 'text/javascript', src:'js/common.js' }
+    %script{ type: 'text/javascript', src:'js/omg.js' }
+    %script{ type: 'text/javascript', src:'js/demo.js' }
+    %link{ rel: 'stylesheet', href:'css/styles.css' }
+  #body
+    .logo
+      %img{ src: 'images/logo.png' }
+    != body
+    != partial('why')
+    .footer
+      Hacked together by
+      %a{ href: 'https://github.com/marcinbunsch' } marcinbunsch
+      = " | "
+      Logo source:
+      %a{ href: 'http://nodejs.org/' } http://nodejs.org/
