@@ -7,7 +7,7 @@ During the questions somebody asked why they did not use node.js and the answer 
 
 As they were finishing the talk I was finishing a simple express-based node.js app which used shared code in the frontend and the backend.
 
-The idea - to show how easy it easy it is to set up. It's far from being perfect, but it shows that if you want shared js code on both sides, node.js is your friend!
+The idea - to show how easy it is to set up. It's far from being perfect, but it shows that if you want shared js code on both sides, node.js is your friend!
 
 And as Heroku launched node.js support I could not think of a better way to celebrate than to put it on Heroku so here it is!
 
