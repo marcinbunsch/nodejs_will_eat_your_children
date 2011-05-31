@@ -1,8 +1,14 @@
 NODE.JS WILL EAT YOUR CHILDREN!
 ===================================
 
-Nah, kidding. I just wanted to have some fun and see whether it would be possible to have nicely shared code between frontend and backend when the backend is based on node.js.
+During Euruko 2011 the guys from kopfmaschine delivered a talk in which they showed how they used the rubyracer gem to embed the V8 within a Ruby app to share code between frontend and backend.
 
-Obviously you can. No more Ruby in the middle required. Go JS!
+During the questions somebody asked why they did not use node.js and the answer was that they did not know node.js but they knew Ruby.
 
-So can we finally stop being afraid of javascript? ;)
+As they were finishing the talk I was finishing a simple express-based node.js app which used shared code in the frontend and the backend.
+
+The idea - to show how easy it easy it is to set up. It's far from being perfect, but it shows that if you want shared js code on both sides, node.js is your friend!
+
+And as Heroku launched node.js support I could not think of a better way to celebrate than to put it on Heroku and here it is!
+
+So if you're afraid of node.js, don't be - it will not eat your children.
