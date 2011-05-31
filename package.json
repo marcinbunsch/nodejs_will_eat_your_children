@@ -1,0 +1,8 @@
+{
+  "name": "node-js-will-eat-your-children",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "2.2.0",
+    "hamljs": "0.5.1"
+  }
+}

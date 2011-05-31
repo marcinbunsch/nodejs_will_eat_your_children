@@ -4,4 +4,4 @@ var OMG = {
   }
 }
 
-exports.OMG = OMG
+exports.shout = OMG.shout
