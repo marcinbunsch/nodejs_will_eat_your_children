@@ -1,8 +1,9 @@
+var OMG = require('./../../public/js/omg')
+
 describe('OMG', function() {
-  var OMG = require('./../../public/omg').OMG
 
   it("should return a helpful message", function() {
-    OMG.shout().should_be("OMG! Same code!")
+    OMG.shout().should_match("OMG! Same code!")
   })
 
   it("should not return a stupid message", function() {
