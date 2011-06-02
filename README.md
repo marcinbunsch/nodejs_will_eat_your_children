@@ -1,6 +1,8 @@
 NODE.JS WILL EAT YOUR CHILDREN!
 ===================================
 
+The live site can be found here: [http://node-js-will-eat-your-children.herokuapp.com/](http://node-js-will-eat-your-children.herokuapp.com/)
+
 During Euruko 2011 the guys from kopfmaschine delivered a talk in which they showed how they used the rubyracer gem to embed the V8 within a Ruby app to share code between frontend and backend.
 
 During the questions somebody asked why they did not use node.js and the answer was that they did not know node.js but they knew Ruby.
